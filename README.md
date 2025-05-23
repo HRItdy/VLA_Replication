@@ -3,11 +3,17 @@ The UR5 script for data collection and evaluation, with the record of common iss
 
 
 ## Dataset conversion
-We used 
+We used Diffusion policy to collect data, and use... to convert ....
+rld5 repo provides conversion from ... to ...
+Pi0 provide libero to...
 
 ## RDT-1b
+Unified state vector
 
 ## $\pi_0$
+client
+
+directly use finetuned model on libero
 
 ## Diffusion Policy
 
