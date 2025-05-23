@@ -18,4 +18,4 @@ https://github.com/Shaka-Labs/ACT
 
    Another way to open this is directing to `training->policy.py', go to definition of `build_ACT_model_and_optimizer->build_ACT_model->build_vae`.
 
-2. 
+2. Second need to padding all the episodes to the fixed length, which is defined in `ACT/config/config.py` as `episode_len` in `TASK_CONFIG`. Please run the code in `dataset_preproc.py` under ACT folder, which will pad all of your episodes in the dataset to the predefined `episode_len`. 
