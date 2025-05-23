@@ -21,7 +21,7 @@ https://github.com/Shaka-Labs/ACT
 2. Second need to padding all the episodes to the fixed length, which is defined in `ACT/config/config.py` as `episode_len` in `TASK_CONFIG`. Please run the code in `dataset_preproc.py` under ACT folder, which will pad all of your episodes in the dataset to the predefined `episode_len`.
 
 3. Put the dataset with **hdf5** format under `data` folder
-├── data
+```├── data
 │   └── pick_screwdriver
 │       ├── screwdriver
 │       │   ├── episode_0.hdf5
@@ -29,4 +29,4 @@ https://github.com/Shaka-Labs/ACT
 │       │   ├── episode_2.hdf5
 │       │   ├── ...
 │       └── text_embed
-│           └── embed_0.pt
+│           └── embed_0.pt```
