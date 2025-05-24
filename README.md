@@ -2,9 +2,7 @@
 All files need to be updated. The newest version is on the remote training server.
 
 ## Dataset conversion
-We used Diffusion policy to collect data, and use... to convert ....
-rld5 repo provides conversion from ... to ...
-Pi0 provide libero to...
+We used Diffusion policy to collect data, and use https://github.com/kpertsch/rlds_dataset_builder to build rlds dataset.
 
 ## OpenVLA
 1. The main thing is to register the dataset, define the structure (key-value mapping) of different rlds datasets (shown in the config.py).
