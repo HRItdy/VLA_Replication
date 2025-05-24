@@ -6,8 +6,10 @@ We used Diffusion policy to collect data, and use https://github.com/kpertsch/rl
 1. Create a folder, put the builder `robo_ur_screwdriver_dataset_builder.py` in.
 2. Build it.
    The generated dataset will be like:
+   
 ![Screenshot from 2025-05-24 15-44-33](https://github.com/user-attachments/assets/6bf5574b-680b-42cc-ac5b-a4a6fb6b3841)
 
+If it said there is already one dataset exists, delete all the generated items (verify, forget. There should be a chat in GPT or Claude.)
 
 ## OpenVLA
 1. The main thing is to register the dataset, define the structure (key-value mapping) of different rlds datasets (shown in the config.py).
