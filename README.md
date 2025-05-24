@@ -20,8 +20,9 @@ If it said there is already one dataset exists, delete all the generated items (
     => `ssh -L 8000:localhost:8000 ssh USER@<SERVER_IP>`
    ```
 ## RDT-1b
-Unified state vector
+1. Define the dataset according to instructions in the original repo (the control frequence is 10Hz according to the data collection code in DP).
 
+2. Refer to `configs/state_vec.py` to get the index of the state vector where different dimensions should be placed. RDT-1b provides an unified state vector. Our own dataset should be put the fixed position in this state vector (refer to the code in the remote server.)
 ## $\pi_0$
 (https://github.com/Physical-Intelligence/openpi)
 
