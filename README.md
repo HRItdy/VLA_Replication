@@ -16,6 +16,7 @@ client
 directly use finetuned model on libero
 
 ## Diffusion Policy
+https://github.com/real-stanford/diffusion_policy
 
 ## Action Chunking Transformer
 https://github.com/Shaka-Labs/ACT
