@@ -3,6 +3,11 @@ All files need to be updated. The newest version is on the remote training serve
 
 ## Dataset conversion
 We used Diffusion policy to collect data, and use https://github.com/kpertsch/rlds_dataset_builder to build rlds dataset.
+1. Create a folder, put the builder `robo_ur_screwdriver_dataset_builder.py` in.
+2. Build it.
+   The generated dataset will be like:
+![Screenshot from 2025-05-24 15-44-33](https://github.com/user-attachments/assets/6bf5574b-680b-42cc-ac5b-a4a6fb6b3841)
+
 
 ## OpenVLA
 1. The main thing is to register the dataset, define the structure (key-value mapping) of different rlds datasets (shown in the config.py).
