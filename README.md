@@ -23,9 +23,12 @@ If it said there is already one dataset exists, delete all the generated items (
 Unified state vector
 
 ## $\pi_0$
-client
+(https://github.com/Physical-Intelligence/openpi)
 
-directly use finetuned model on libero
+1. You need to define the task configure somewhere (refer to the remote code)
+
+2. Use 
+3. 
 
 ## Diffusion Policy
 https://github.com/real-stanford/diffusion_policy
