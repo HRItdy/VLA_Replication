@@ -27,7 +27,7 @@ https://github.com/real-stanford/diffusion_policy
 
 4. This code uses yaml to recursively define the task. Please change yaml in task to aligh it with your own dataset, and policy relevant yaml to define the policy to call.
 
-5. We provide `visualizer.py` to visualize the video in the converted dataset, help users to identify whether the converted dataset is consistant with the original one.
+5. We provide `visualize.py` to visualize the video in the converted dataset, help users to identify whether the converted dataset is consistant with the original one. Meanwhile, `wandb_`
 ## Action Chunking Transformer
 https://github.com/Shaka-Labs/ACT
 1. First align the dimension of `state_dim` of vae and the training dataet.
