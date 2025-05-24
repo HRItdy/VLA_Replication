@@ -17,6 +17,10 @@ directly use finetuned model on libero
 
 ## Diffusion Policy
 https://github.com/real-stanford/diffusion_policy
+Comply with the hardware requirements. Then run `diffusion_policy/diffusion_policy/demo_real_robot.py` to teleoperate UR5 with SpaceMouse.
+
+The data converting the collected dataset to replaybuffer is in `diffusion_policy/diffusion_policy/real_world/real_data_conversion.py`. The structure is like:
+![Screenshot from 2025-05-24 14-27-57](https://github.com/user-attachments/assets/ad8eedb2-1614-470c-9792-650f9b1aece3)
 
 ## Action Chunking Transformer
 https://github.com/Shaka-Labs/ACT
