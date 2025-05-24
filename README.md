@@ -81,3 +81,6 @@ cannot import name 'HF_HOME' from 'huggingface_hub.constants' or something like 
 
 > https://github.com/huggingface/alignment-handbook/issues/94
 
+NCCL INFO NCCL_SOCKET_IFNAME set by environment to eth0
+
+> RDT-1b `finetune.sh` defined a wrong NCCL_SOCKET_IFNAME. Check GPT or Claude, I remember there is a chat for troubleshooting. You need to identify the name of your NCCL device and change the name in finetune.sh.
