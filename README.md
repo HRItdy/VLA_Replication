@@ -8,7 +8,13 @@ rld5 repo provides conversion from ... to ...
 Pi0 provide libero to...
 
 ## OpenVLA
+1. The main thing is to register the dataset, define the structure (key-value mapping) of different rlds datasets (shown in the config.py).
 
+2. Use `openvla/vla-scripts/deploy.py` to establish the server.
+   ```
+   Note that if your server is not accessible on the open web, you can use ngrok, or forward ports to your client via ssh:
+    => `ssh -L 8000:localhost:8000 ssh USER@<SERVER_IP>`
+   ```
 ## RDT-1b
 Unified state vector
 
