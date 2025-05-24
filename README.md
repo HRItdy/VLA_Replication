@@ -27,8 +27,11 @@ Unified state vector
 
 1. You need to define the task configure somewhere (refer to the remote code)
 
-2. Use 
-3. 
+2. Use `pi0_data_conversion.py` to convert h5 to libero dataset.
+
+3. `packages/openpi-client/src/openpi_client/websocket_client_policy.py` to establish the server. Similarly, need to handleover the port through ssh.
+
+4. https://github.com/Physical-Intelligence/openpi/blob/main/examples/libero/README.md Instructions to directly run finetuned openpi on libero simulation dataset.
 
 ## Diffusion Policy
 https://github.com/real-stanford/diffusion_policy
