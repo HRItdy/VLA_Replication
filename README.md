@@ -1,6 +1,5 @@
 # VLA_Replication
-The UR5 script for data collection and evaluation, with the record of common issues encountered
-
+All files need to be updated. The newest version is on the remote training server.
 
 ## Dataset conversion
 We used Diffusion policy to collect data, and use... to convert ....
